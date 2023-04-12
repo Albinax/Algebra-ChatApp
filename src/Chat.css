@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Evander', sans-serif;
 }
 
 .Chat {
@@ -95,10 +96,10 @@
 
 .Message-content > .username {
   display: block;
-  color: gray;
+  color: rgb(165, 165, 165);
   font-size: 14px;
   padding-bottom: 4px;
-  text-decoration-style: bold;
+  font-weight: bold;
 }
 
 .Message-content > .text {

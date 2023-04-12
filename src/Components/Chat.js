@@ -24,7 +24,6 @@ class Chat extends Component {
             color: randomColor(),
         },
         messages: [],
-        onlineMembers: [],
         roomMembers: [],
     };
 
@@ -108,7 +107,7 @@ class Chat extends Component {
                     />
                     <Input onSendMessage={this.onSendMessage} />
                 </div>
-                <div class="col-sm-4">
+                <div className="col-sm-4">
                     <div className="Member-list">
                         {this.renderMembersList()}
                     </div>
