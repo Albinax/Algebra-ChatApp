@@ -109,9 +109,7 @@ class Chat extends Component {
                         <Input onSendMessage={this.onSendMessage} />
                     </div>
                     <div className="member-container">
-                        <div className="member-list">
-                            {this.renderMembersList()}
-                        </div>
+                        {this.renderMembersList()}
                     </div>
                 </div>
             </div>

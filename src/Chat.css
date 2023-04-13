@@ -152,7 +152,7 @@ button:hover {
   height: auto;
   margin: 0 auto;
   padding: 5px;
-  border-radius: 20px;
+  text-align: left;
 }
 
 ::-webkit-scrollbar {

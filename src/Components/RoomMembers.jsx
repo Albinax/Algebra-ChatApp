@@ -2,7 +2,7 @@ import React from "react";
 
 const RoomMembers = ({ roomMembers }) => {
     return (
-        <div>
+        <div className="member-list">
             <h3>Current members in the room:</h3>
             <ul>
                 {roomMembers.map((member, index) => (
