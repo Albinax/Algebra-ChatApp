@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Algebra-ChatApp/static/css/main.512ca1a5.css",
-    "main.js": "/Algebra-ChatApp/static/js/main.6b17252e.js",
+    "main.css": "/Algebra-ChatApp/static/css/main.7486bfd9.css",
+    "main.js": "/Algebra-ChatApp/static/js/main.933b15c9.js",
     "static/js/787.0e8ea75c.chunk.js": "/Algebra-ChatApp/static/js/787.0e8ea75c.chunk.js",
     "index.html": "/Algebra-ChatApp/index.html",
     "static/media/chat-dots.svg": "/Algebra-ChatApp/static/media/chat-dots.618db13d9e54539191d1.svg",
-    "main.512ca1a5.css.map": "/Algebra-ChatApp/static/css/main.512ca1a5.css.map",
-    "main.6b17252e.js.map": "/Algebra-ChatApp/static/js/main.6b17252e.js.map",
+    "main.7486bfd9.css.map": "/Algebra-ChatApp/static/css/main.7486bfd9.css.map",
+    "main.933b15c9.js.map": "/Algebra-ChatApp/static/js/main.933b15c9.js.map",
     "787.0e8ea75c.chunk.js.map": "/Algebra-ChatApp/static/js/787.0e8ea75c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.512ca1a5.css",
-    "static/js/main.6b17252e.js"
+    "static/css/main.7486bfd9.css",
+    "static/js/main.933b15c9.js"
   ]
 }
