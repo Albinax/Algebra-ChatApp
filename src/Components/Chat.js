@@ -97,19 +97,21 @@ class Chat extends Component {
 
     render() {
         return (
-            <div className="Chat">
-                <h1 className="Chat-header">My Chat App</h1>
-                <h3 className="Chat-header">observable-test-room</h3>
-                <div className="col-sm-8">
-                    <Messages
-                        messages={this.state.messages}
-                        currentMember={this.state.member}
-                    />
-                    <Input onSendMessage={this.onSendMessage} />
-                </div>
-                <div className="col-sm-4">
-                    <div className="Member-list">
-                        {this.renderMembersList()}
+            <div className="container">
+                <h1>Chat App</h1>
+                <h3>observable-test-room</h3>
+                <div className="chat">
+                    <div className="msg-container">
+                        <Messages
+                            messages={this.state.messages}
+                            currentMember={this.state.member}
+                        />
+                        <Input onSendMessage={this.onSendMessage} />
+                    </div>
+                    <div className="member-container">
+                        <div className="member-list">
+                            {this.renderMembersList()}
+                        </div>
                     </div>
                 </div>
             </div>

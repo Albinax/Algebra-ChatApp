@@ -7,8 +7,8 @@ class Messages extends Component {
         const { currentMember } = this.props;
         const messageFromMe = member.id === currentMember.id;
         const className = messageFromMe
-            ? "Messages-message currentMember"
-            : "Messages-message";
+            ? "messages-message currentMember"
+            : "messages-message";
 
         let time = new Date(Date.now());
         //console.log(time.getHours(), time.getMinutes(), time.getSeconds());
@@ -18,7 +18,7 @@ class Messages extends Component {
                     className="avatar"
                     style={{ backgroundColor: member.clientData.color }}
                 />
-                <div className="Message-content">
+                <div className="message-content">
                     <div className="username">{member.clientData.username}</div>
                     <div className="text">{text}</div>
                     <div className="timestamp" style={{ fontSize: 11 }}>
@@ -32,7 +32,7 @@ class Messages extends Component {
     render() {
         const { messages } = this.props;
         return (
-            <ul className="Messages-list">
+            <ul className="messages-list">
                 {messages.map((m, i) => this.renderMessage(m, i))}
             </ul>
         );
